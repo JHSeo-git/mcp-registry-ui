@@ -1,0 +1,12 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit"
+  }
+}
